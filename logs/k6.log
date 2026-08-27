@@ -1,0 +1,298 @@
+
+         /\      Grafana   /‾‾/
+    /\  /  \     |\  __   /  /
+   /  \/    \    | |/ /  /   ‾‾\
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/
+
+
+     execution: local
+        script: .\k6\k6.js
+        output: -
+
+     scenarios: (100.00%) 1 scenario, 150 max VUs, 5m10s max duration (incl. graceful stop):
+              * lifecycle_stress_test: Up to 150 looping VUs for 5m0s over 5 stages (gracefulRampDown: 10s, gracefulStop: 30s)
+
+INFO[0000] ℹ️ [VU: 2] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0010] ℹ️ [VU: 2] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0011] ℹ️ [VU: 1] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0020] ℹ️ [VU: 2] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0021] ℹ️ [VU: 1] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0022] ℹ️ [VU: 5] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0031] ℹ️ [VU: 2] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0032] ℹ️ [VU: 1] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0033] ℹ️ [VU: 5] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0033] ℹ️ [VU: 6] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0043] ℹ️ [VU: 2] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0044] ℹ️ [VU: 1] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0045] ℹ️ [VU: 3] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0046] ℹ️ [VU: 5] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0046] ℹ️ [VU: 6] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0048] ℹ️ [VU: 8] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0051] ℹ️ [VU: 7] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0054] ℹ️ [VU: 10] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0057] ℹ️ [VU: 4] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0060] ℹ️ [VU: 9] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0063] ℹ️ [VU: 11] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0066] ℹ️ [VU: 13] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0068] ℹ️ [VU: 2] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0069] ℹ️ [VU: 1] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0069] ℹ️ [VU: 15] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0070] ℹ️ [VU: 3] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0072] ℹ️ [VU: 16] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0072] ℹ️ [VU: 5] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0075] ℹ️ [VU: 18] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0078] ℹ️ [VU: 6] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0078] ℹ️ [VU: 12] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0081] ℹ️ [VU: 17] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0082] ℹ️ [VU: 8] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0083] ℹ️ [VU: 7] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0084] ℹ️ [VU: 19] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0087] ℹ️ [VU: 20] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0090] ℹ️ [VU: 14] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0093] ℹ️ [VU: 23] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0096] ℹ️ [VU: 21] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0099] ℹ️ [VU: 22] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0102] ℹ️ [VU: 25] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0105] ℹ️ [VU: 27] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0107] ℹ️ [VU: 9] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0109] ℹ️ [VU: 10] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0109] ℹ️ [VU: 26] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0110] ℹ️ [VU: 4] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0114] ℹ️ [VU: 29] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0118] ℹ️ [VU: 13] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0119] ℹ️ [VU: 28] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0124] ℹ️ [VU: 30] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0129] ℹ️ [VU: 31] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0130] ℹ️ [VU: 2] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0131] ℹ️ [VU: 11] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0133] ℹ️ [VU: 32] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0134] ℹ️ [VU: 5] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0136] ℹ️ [VU: 1] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0138] ℹ️ [VU: 15] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0138] ℹ️ [VU: 34] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0141] ℹ️ [VU: 16] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0143] ℹ️ [VU: 35] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0149] ℹ️ [VU: 36] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0152] ℹ️ [VU: 3] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0153] ℹ️ [VU: 33] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0156] ℹ️ [VU: 17] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0157] ℹ️ [VU: 24] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0160] ℹ️ [VU: 18] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0160] ℹ️ [VU: 12] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0162] ℹ️ [VU: 37] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0167] ℹ️ [VU: 39] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0167] ℹ️ [VU: 7] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0171] ℹ️ [VU: 19] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0173] ℹ️ [VU: 38] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0174] ℹ️ [VU: 6] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0176] ℹ️ [VU: 8] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0178] ℹ️ [VU: 40] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0181] ℹ️ [VU: 20] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0181] ℹ️ [VU: 41] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0184] ℹ️ [VU: 14] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0186] ℹ️ [VU: 42] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0188] ℹ️ [VU: 23] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0190] ℹ️ [VU: 22] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0192] ℹ️ [VU: 44] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0197] ℹ️ [VU: 45] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0200] ℹ️ [VU: 21] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0202] ℹ️ [VU: 43] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0206] ℹ️ [VU: 25] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0207] ℹ️ [VU: 46] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0210] ℹ️ [VU: 47] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0217] ℹ️ [VU: 48] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0217] ℹ️ [VU: 10] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0221] ℹ️ [VU: 27] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0221] ℹ️ [VU: 49] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0225] ℹ️ [VU: 54] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0225] ℹ️ [VU: 57] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0226] ℹ️ [VU: 51] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0226] ℹ️ [VU: 52] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0226] ℹ️ [VU: 50] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0228] ℹ️ [VU: 55] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0229] ℹ️ [VU: 59] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0229] ℹ️ [VU: 53] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0229] ℹ️ [VU: 58] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0230] ℹ️ [VU: 61] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0230] ℹ️ [VU: 65] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0230] ℹ️ [VU: 56] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0230] ℹ️ [VU: 62] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0231] ℹ️ [VU: 64] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0231] ℹ️ [VU: 60] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0232] ℹ️ [VU: 66] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0232] ℹ️ [VU: 67] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0233] ℹ️ [VU: 68] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0233] ℹ️ [VU: 28] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0233] ℹ️ [VU: 63] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0234] ℹ️ [VU: 74] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0235] ℹ️ [VU: 70] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0236] ℹ️ [VU: 69] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0236] ℹ️ [VU: 78] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0237] ℹ️ [VU: 72] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0237] ℹ️ [VU: 75] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0238] ℹ️ [VU: 79] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0238] ℹ️ [VU: 73] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0238] ℹ️ [VU: 30] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0238] ℹ️ [VU: 71] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0238] ℹ️ [VU: 76] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0239] ℹ️ [VU: 81] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0239] ℹ️ [VU: 82] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0240] ℹ️ [VU: 77] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0240] ℹ️ [VU: 84] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0240] ℹ️ [VU: 80] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0241] ℹ️ [VU: 87] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0242] ℹ️ [VU: 83] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0242] ℹ️ [VU: 88] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0242] ℹ️ [VU: 26] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0242] ℹ️ [VU: 85] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0243] ℹ️ [VU: 90] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0243] ℹ️ [VU: 29] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0243] ℹ️ [VU: 93] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0243] ℹ️ [VU: 94] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0244] ℹ️ [VU: 86] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0245] ℹ️ [VU: 89] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0245] ℹ️ [VU: 92] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0245] ℹ️ [VU: 99] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0246] ℹ️ [VU: 98] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0247] ℹ️ [VU: 101] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0247] ℹ️ [VU: 102] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0247] ℹ️ [VU: 91] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0248] ℹ️ [VU: 100] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0248] ℹ️ [VU: 97] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0248] ℹ️ [VU: 104] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0249] ℹ️ [VU: 96] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0249] ℹ️ [VU: 105] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0249] ℹ️ [VU: 95] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0250] ℹ️ [VU: 107] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0251] ℹ️ [VU: 108] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0251] ℹ️ [VU: 103] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0252] ℹ️ [VU: 113] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0253] ℹ️ [VU: 114] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0253] ℹ️ [VU: 106] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0254] ℹ️ [VU: 115] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0254] ℹ️ [VU: 117] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0255] ℹ️ [VU: 118] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0255] ℹ️ [VU: 109] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0255] ℹ️ [VU: 116] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0255] ℹ️ [VU: 111] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0256] ℹ️ [VU: 110] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0256] ℹ️ [VU: 120] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0257] ℹ️ [VU: 119] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0257] ℹ️ [VU: 112] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0257] ℹ️ [VU: 122] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0258] ℹ️ [VU: 128] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0259] ℹ️ [VU: 124] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0259] ℹ️ [VU: 125] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0259] ℹ️ [VU: 121] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0260] ℹ️ [VU: 130] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0261] ℹ️ [VU: 131] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0261] ℹ️ [VU: 126] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0261] ℹ️ [VU: 132] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0262] ℹ️ [VU: 123] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0263] ℹ️ [VU: 135] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0264] ℹ️ [VU: 13] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0264] ℹ️ [VU: 136] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0264] ℹ️ [VU: 138] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0264] ℹ️ [VU: 127] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0265] ℹ️ [VU: 139] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0265] ℹ️ [VU: 129] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0265] ℹ️ [VU: 140] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0266] ℹ️ [VU: 141] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0266] ℹ️ [VU: 133] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0266] ℹ️ [VU: 142] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0267] ℹ️ [VU: 134] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0267] ℹ️ [VU: 144] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0268] ℹ️ [VU: 137] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0268] ℹ️ [VU: 146] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0268] ℹ️ [VU: 148] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0269] ℹ️ [VU: 147] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0269] ℹ️ [VU: 150] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0270] ℹ️ [VU: 149] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0271] ℹ️ [VU: 143] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0273] ℹ️ [VU: 145] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0276] ℹ️ [VU: 4] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0286] ℹ️ [VU: 9] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0291] ℹ️ [VU: 5] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0294] ℹ️ [VU: 2] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0297] ℹ️ [VU: 11] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0297] ℹ️ [VU: 1] Procesando peticiones concurrentes contra DynamoDB Local...  source=console
+INFO[0300]
+===================================================================
+📊 RESUMEN FINAL DE COMPORTAMIENTO Y SLIs (DYNAMODB LOCAL)
+===================================================================
+⏱️  Duración Total de la Prueba : 5 Minutos (Etapas de Estrés completadas)
+📥  Peticiones Totales Ejecutadas: 21869
+❌  Errores Totales Detectados   : 0
+
+📈  SLI: Latencias de LECTURA (GetItem)
+    - Promedio (Avg) : 23.89 ms
+    - Mediana (Med)  : 23.00 ms
+    - Percentil 90    : 37.00 ms
+    - Percentil 95 (SLO): 41.00 ms
+
+📉  SLI: Latencias de ESCRITURA (PutItem)
+    - Promedio (Avg) : 1330.18 ms
+    - Mediana (Med)  : 983.00 ms
+    - Percentil 90    : 3580.70 ms
+    - Percentil 95 (SLO): 4327.85 ms
+
+📊  Rendimiento Global (Throughput)
+    - Tasa de Éxito HTTP : 0.0000% fallas.
+===================================================================
+      source=console
+ERRO[0300] ReferenceError: textSummary is not defined
+running at handleSummary (file:///C:/Users/jored/Documents/projects/dynamodb/k6/k6.js:180:30(113))  hint="script exception" source=stacktrace
+
+
+  █ THRESHOLDS
+
+    dynamo_errors_count
+    ✓ 'count<50' count=0
+
+    dynamo_reading_duration
+    ✗ 'p(95)<30' p(95)=41ms
+
+    dynamo_writing_duration
+    ✗ 'p(95)<45' p(95)=4.32s
+
+    http_req_failed
+    ✓ 'rate<0.01' rate=0.00%
+
+
+  █ TOTAL RESULTS
+
+    checks_total.......: 21869   72.889853/s
+    checks_succeeded...: 100.00% 21869 out of 21869
+    checks_failed......: 0.00%   0 out of 21869
+
+    ✓ Read HTTP 200
+    ✓ Write HTTP 200
+
+    CUSTOM
+    dynamo_errors_count............: 0      0/s
+    dynamo_reading_duration........: avg=23.89ms  min=1ms     med=23ms    max=118ms p(90)=37ms  p(95)=41ms
+    dynamo_writing_duration........: avg=1.33s    min=16ms    med=983ms   max=5.42s p(90)=3.58s p(95)=4.32s
+
+    HTTP
+    http_req_duration..............: avg=544.95ms min=506.2µs med=31.96ms max=5.42s p(90)=1.51s p(95)=3.22s
+      { expected_response:true }...: avg=544.95ms min=506.2µs med=31.96ms max=5.42s p(90)=1.51s p(95)=3.22s
+    http_req_failed................: 0.00%  0 out of 21869
+    http_reqs......................: 21869  72.889853/s
+
+    EXECUTION
+    iteration_duration.............: avg=565.47ms min=20.61ms med=52.47ms max=5.44s p(90)=1.53s p(95)=3.24s
+    iterations.....................: 21869  72.889853/s
+    vus............................: 1      min=1          max=149
+    vus_max........................: 150    min=150        max=150
+
+    NETWORK
+    data_received..................: 5.3 MB 18 kB/s
+    data_sent......................: 11 MB  37 kB/s
+
+
+
+
+running (5m00.0s), 000/150 VUs, 21869 complete and 0 interrupted iterations
+lifecycle_stress_test ✓ [======================================] 000/150 VUs  5m0s
+ERRO[0300] thresholds on metrics 'dynamo_reading_duration, dynamo_writing_duration' have been crossed
