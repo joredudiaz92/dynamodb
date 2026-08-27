@@ -25,6 +25,3 @@ Asegúrate de tener instalado:
    ```
 2. **Ejecutar migraciones:**
    Aplica los esquemas iniciales ejecutando los scripts dentro de la carpeta `migrations/`.
-
----
-*Nota: Este archivo fue generado automáticamente con base en la estructura de archivos visible en el repositorio.*
